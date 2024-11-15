@@ -1,10 +1,18 @@
+body{
+    background-image: url(/img/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    backdrop-filter: blur(5px);
+}
 .navigation {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 0 20px;
     height: 70px;
-    background: linear-gradient(rgb(53, 26, 57),rgb(0, 0, 0));
+    background: linear-gradient(rgba(53, 26, 57, 0.479),rgba(0, 0, 0, 0.479));
 }
 
 .navigation h1 {
@@ -36,11 +44,17 @@
 }
 
 .navigation a:hover {
-    color: #9f35bd; /* Cambia el color en hover */
+    color: #c26dd9; /* Cambia el color en hover */
 }
 
 .navigation a:active {
-    color: #ff9900; /* Color cuando está activo */
+    color: #920275; /* Color cuando está activo */
 }
 
-/* Responsividad */
+/* Sections */
+h2{
+    text-align: center;
+    font-family: 'Verdana';
+    font-size: 20px;
+    color: #26042f;
+}
