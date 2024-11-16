@@ -195,4 +195,15 @@ h2{
 .unfollow-btn:hover {
     background-color: #5c5253;
 }
-
+footer{
+    background: linear-gradient(rgb(54, 2, 62),#aa09bf);
+    height: 60px;
+}
+footer h2{
+    color: white;
+    
+}
+footer p{
+    color: white;
+    text-align: center;
+}
